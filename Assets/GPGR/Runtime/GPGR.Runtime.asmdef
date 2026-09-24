@@ -1,0 +1,17 @@
+{
+    "name": "GPGR.Runtime",
+    "rootNamespace": "GPGR.Runtime",
+    "references": [
+        "GPGR.Charting",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

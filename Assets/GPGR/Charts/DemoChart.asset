@@ -1,0 +1,480 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 382f61b07f2085f46a5863162241aa67, type: 3}
+  m_Name: DemoChart
+  m_EditorClassIdentifier: GPGR.Charting::GPGR.Charting.SongChart
+  bpm: 125
+  offsetSeconds: 0
+  defaultApproachBeats: 2
+  defaultSpawnAngleDeg: 0
+  defaultHitAngleDeg: 270
+  clip: {fileID: 8300000, guid: 4c13d074daa5066448ff6cb0fce2dce5, type: 3}
+  judgement:
+    perfectMs: 50
+    goodMs: 100
+    badMs: 160
+    perfectPenalty: 0
+    goodPenalty: 2
+    badPenalty: 5
+    missPenalty: 10
+  playback: 0
+  autoGoodRatio: 0
+  autoSeed: 12345
+  phases:
+  - phaseName: "\uBC18\uC8FD"
+    rows:
+    - label: "\uBC18\uC8FD"
+      kind: 1
+      hitBeats:
+      - 4
+      path:
+      - beat: 0
+        angleDeg: 0
+      - beat: 4
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 4.25
+      icon: {fileID: 21300000, guid: ac193272f016d154c88bc23be30b4c84, type: 3}
+      color: {r: 0.9098039, g: 0.83137256, b: 0.65882355, a: 1}
+    backdrop: 0
+    pizza: 0
+    overrideWheelTint: 0
+    wheelTint: {r: 1, g: 1, b: 1, a: 1}
+    holdBeats: 0
+  - phaseName: "\uD1A0\uB9C8\uD1A0 \uC18C\uC2A4"
+    rows:
+    - label: "\uD1A0\uB9C8\uD1A0 \uC18C\uC2A4"
+      kind: 0
+      hitBeats:
+      - 3
+      path:
+      - beat: 1
+        angleDeg: 0
+      - beat: 3
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 0
+      icon: {fileID: 21300000, guid: 42159b73a963a4b438ccac941221b2dd, type: 3}
+      color: {r: 0.7529412, g: 0.22352941, b: 0.16862746, a: 1}
+    - label: "\uD1A0\uB9C8\uD1A0 \uC18C\uC2A4"
+      kind: 0
+      hitBeats:
+      - 4
+      path:
+      - beat: 2
+        angleDeg: 0
+      - beat: 4
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 0
+      icon: {fileID: 21300000, guid: 42159b73a963a4b438ccac941221b2dd, type: 3}
+      color: {r: 0.7529412, g: 0.22352941, b: 0.16862746, a: 1}
+    - label: "\uD1A0\uB9C8\uD1A0 \uC18C\uC2A4"
+      kind: 0
+      hitBeats:
+      - 5
+      path:
+      - beat: 3
+        angleDeg: 0
+      - beat: 5
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 0
+      icon: {fileID: 21300000, guid: 42159b73a963a4b438ccac941221b2dd, type: 3}
+      color: {r: 0.7529412, g: 0.22352941, b: 0.16862746, a: 1}
+    - label: "\uD1A0\uB9C8\uD1A0 \uC18C\uC2A4"
+      kind: 0
+      hitBeats:
+      - 6
+      path:
+      - beat: 4
+        angleDeg: 0
+      - beat: 6
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 0
+      icon: {fileID: 21300000, guid: 42159b73a963a4b438ccac941221b2dd, type: 3}
+      color: {r: 0.7529412, g: 0.22352941, b: 0.16862746, a: 1}
+    - label: "\uD1A0\uB9C8\uD1A0 \uC18C\uC2A4"
+      kind: 0
+      hitBeats:
+      - 7
+      path:
+      - beat: 5
+        angleDeg: 0
+      - beat: 7
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 0
+      icon: {fileID: 21300000, guid: 42159b73a963a4b438ccac941221b2dd, type: 3}
+      color: {r: 0.7529412, g: 0.22352941, b: 0.16862746, a: 1}
+    - label: "\uD1A0\uB9C8\uD1A0 \uC18C\uC2A4"
+      kind: 0
+      hitBeats:
+      - 8
+      path:
+      - beat: 6
+        angleDeg: 0
+      - beat: 8
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 0
+      icon: {fileID: 21300000, guid: 42159b73a963a4b438ccac941221b2dd, type: 3}
+      color: {r: 0.7529412, g: 0.22352941, b: 0.16862746, a: 1}
+    - label: "\uD1A0\uB9C8\uD1A0 \uC18C\uC2A4"
+      kind: 0
+      hitBeats:
+      - 9
+      path:
+      - beat: 7
+        angleDeg: 0
+      - beat: 9
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 0
+      icon: {fileID: 21300000, guid: 42159b73a963a4b438ccac941221b2dd, type: 3}
+      color: {r: 0.7529412, g: 0.22352941, b: 0.16862746, a: 1}
+    - label: "\uD1A0\uB9C8\uD1A0 \uC18C\uC2A4"
+      kind: 0
+      hitBeats:
+      - 10
+      path:
+      - beat: 8
+        angleDeg: 0
+      - beat: 10
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 0
+      icon: {fileID: 21300000, guid: 42159b73a963a4b438ccac941221b2dd, type: 3}
+      color: {r: 0.7529412, g: 0.22352941, b: 0.16862746, a: 1}
+    - label: "\uD1A0\uB9C8\uD1A0 \uC18C\uC2A4"
+      kind: 0
+      hitBeats:
+      - 11
+      path:
+      - beat: 9
+        angleDeg: 0
+      - beat: 11
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 0
+      icon: {fileID: 21300000, guid: 42159b73a963a4b438ccac941221b2dd, type: 3}
+      color: {r: 0.7529412, g: 0.22352941, b: 0.16862746, a: 1}
+    - label: "\uD1A0\uB9C8\uD1A0 \uC18C\uC2A4"
+      kind: 0
+      hitBeats:
+      - 12
+      path:
+      - beat: 10
+        angleDeg: 0
+      - beat: 12
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 0
+      icon: {fileID: 21300000, guid: 42159b73a963a4b438ccac941221b2dd, type: 3}
+      color: {r: 0.7529412, g: 0.22352941, b: 0.16862746, a: 1}
+    - label: "\uD1A0\uB9C8\uD1A0 \uC18C\uC2A4"
+      kind: 0
+      hitBeats:
+      - 13
+      path:
+      - beat: 11
+        angleDeg: 0
+      - beat: 13
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 0
+      icon: {fileID: 21300000, guid: 42159b73a963a4b438ccac941221b2dd, type: 3}
+      color: {r: 0.7529412, g: 0.22352941, b: 0.16862746, a: 1}
+    backdrop: 0
+    pizza: 0
+    overrideWheelTint: 0
+    wheelTint: {r: 1, g: 1, b: 1, a: 1}
+    holdBeats: 0
+  - phaseName: "\uCE58\uC988 \uBFCC\uB9AC\uAE30"
+    rows:
+    - label: "\uCE58\uC988 \uBFCC\uB9AC\uAE30"
+      kind: 0
+      hitBeats:
+      - 3
+      - 6
+      path:
+      - beat: 0
+        angleDeg: 0
+      - beat: 3
+        angleDeg: 270
+      - beat: 4.5
+        angleDeg: 90
+      - beat: 6
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 0
+      icon: {fileID: 21300000, guid: 95a2d0122f92da04583fa0a6ba4fc709, type: 3}
+      color: {r: 0.94509804, g: 0.76862746, b: 0.05882353, a: 1}
+    - label: "\uCE58\uC988 \uBFCC\uB9AC\uAE30"
+      kind: 0
+      hitBeats:
+      - 5
+      - 8
+      path:
+      - beat: 2
+        angleDeg: 0
+      - beat: 5
+        angleDeg: 270
+      - beat: 6.5
+        angleDeg: 90
+      - beat: 8
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 0
+      icon: {fileID: 21300000, guid: 95a2d0122f92da04583fa0a6ba4fc709, type: 3}
+      color: {r: 0.94509804, g: 0.76862746, b: 0.05882353, a: 1}
+    - label: "\uCE58\uC988 \uBFCC\uB9AC\uAE30"
+      kind: 0
+      hitBeats:
+      - 7
+      - 10
+      path:
+      - beat: 4
+        angleDeg: 0
+      - beat: 7
+        angleDeg: 270
+      - beat: 8.5
+        angleDeg: 90
+      - beat: 10
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 0
+      icon: {fileID: 21300000, guid: 95a2d0122f92da04583fa0a6ba4fc709, type: 3}
+      color: {r: 0.94509804, g: 0.76862746, b: 0.05882353, a: 1}
+    - label: "\uCE58\uC988 \uBFCC\uB9AC\uAE30"
+      kind: 0
+      hitBeats:
+      - 9
+      - 12
+      path:
+      - beat: 6
+        angleDeg: 0
+      - beat: 9
+        angleDeg: 270
+      - beat: 10.5
+        angleDeg: 90
+      - beat: 12
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 0
+      icon: {fileID: 21300000, guid: 95a2d0122f92da04583fa0a6ba4fc709, type: 3}
+      color: {r: 0.94509804, g: 0.76862746, b: 0.05882353, a: 1}
+    - label: "\uCE58\uC988 \uBFCC\uB9AC\uAE30"
+      kind: 0
+      hitBeats:
+      - 11
+      - 14
+      path:
+      - beat: 8
+        angleDeg: 0
+      - beat: 11
+        angleDeg: 270
+      - beat: 12.5
+        angleDeg: 90
+      - beat: 14
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 0
+      icon: {fileID: 21300000, guid: 95a2d0122f92da04583fa0a6ba4fc709, type: 3}
+      color: {r: 0.94509804, g: 0.76862746, b: 0.05882353, a: 1}
+    backdrop: 0
+    pizza: 0
+    overrideWheelTint: 0
+    wheelTint: {r: 1, g: 1, b: 1, a: 1}
+    holdBeats: 2
+  - phaseName: "\uD398\uD37C\uB85C\uB2C8"
+    rows:
+    - label: "\uD398\uD37C\uB85C\uB2C8"
+      kind: 0
+      hitBeats:
+      - 2
+      path:
+      - beat: 0
+        angleDeg: 0
+      - beat: 2
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 0
+      icon: {fileID: 21300000, guid: 42416db28ec5e5043a9cbded0e965259, type: 3}
+      color: {r: 0.5568628, g: 0.16862746, b: 0.1254902, a: 1}
+    - label: "\uD398\uD37C\uB85C\uB2C8"
+      kind: 0
+      hitBeats:
+      - 3
+      path:
+      - beat: 1
+        angleDeg: 0
+      - beat: 3
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 0
+      icon: {fileID: 21300000, guid: 42416db28ec5e5043a9cbded0e965259, type: 3}
+      color: {r: 0.5568628, g: 0.16862746, b: 0.1254902, a: 1}
+    - label: "\uD398\uD37C\uB85C\uB2C8"
+      kind: 0
+      hitBeats:
+      - 4
+      path:
+      - beat: 2
+        angleDeg: 0
+      - beat: 4
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 0
+      icon: {fileID: 21300000, guid: 42416db28ec5e5043a9cbded0e965259, type: 3}
+      color: {r: 0.5568628, g: 0.16862746, b: 0.1254902, a: 1}
+    - label: "\uD398\uD37C\uB85C\uB2C8"
+      kind: 0
+      hitBeats:
+      - 4.75
+      path:
+      - beat: 2.75
+        angleDeg: 0
+      - beat: 4.75
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 0
+      icon: {fileID: 21300000, guid: 42416db28ec5e5043a9cbded0e965259, type: 3}
+      color: {r: 0.5568628, g: 0.16862746, b: 0.1254902, a: 1}
+    - label: "\uD398\uD37C\uB85C\uB2C8"
+      kind: 0
+      hitBeats:
+      - 5.25
+      path:
+      - beat: 3.25
+        angleDeg: 0
+      - beat: 5.25
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 0
+      icon: {fileID: 21300000, guid: 42416db28ec5e5043a9cbded0e965259, type: 3}
+      color: {r: 0.5568628, g: 0.16862746, b: 0.1254902, a: 1}
+    - label: "\uD398\uD37C\uB85C\uB2C8"
+      kind: 0
+      hitBeats:
+      - 6
+      path:
+      - beat: 4
+        angleDeg: 0
+      - beat: 6
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 0
+      icon: {fileID: 21300000, guid: 42416db28ec5e5043a9cbded0e965259, type: 3}
+      color: {r: 0.5568628, g: 0.16862746, b: 0.1254902, a: 1}
+    - label: "\uD398\uD37C\uB85C\uB2C8"
+      kind: 0
+      hitBeats:
+      - 6.75
+      path:
+      - beat: 4.75
+        angleDeg: 0
+      - beat: 6.75
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 0
+      icon: {fileID: 21300000, guid: 42416db28ec5e5043a9cbded0e965259, type: 3}
+      color: {r: 0.5568628, g: 0.16862746, b: 0.1254902, a: 1}
+    - label: "\uD398\uD37C\uB85C\uB2C8"
+      kind: 0
+      hitBeats:
+      - 7.25
+      path:
+      - beat: 5.25
+        angleDeg: 0
+      - beat: 7.25
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 0
+      icon: {fileID: 21300000, guid: 42416db28ec5e5043a9cbded0e965259, type: 3}
+      color: {r: 0.5568628, g: 0.16862746, b: 0.1254902, a: 1}
+    backdrop: 0
+    pizza: 0
+    overrideWheelTint: 0
+    wheelTint: {r: 1, g: 1, b: 1, a: 1}
+    holdBeats: 0
+  - phaseName: "\uCE58\uC988"
+    rows:
+    - label: "\uCE58\uC988 \uBFCC\uB9AC\uAE30"
+      kind: 0
+      hitBeats:
+      - 4
+      - 7
+      path:
+      - beat: 1
+        angleDeg: 0
+      - beat: 4
+        angleDeg: 270
+      - beat: 5.5
+        angleDeg: 90
+      - beat: 7
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 0
+      icon: {fileID: 21300000, guid: 95a2d0122f92da04583fa0a6ba4fc709, type: 3}
+      color: {r: 0.94509804, g: 0.76862746, b: 0.05882353, a: 1}
+    - label: "\uCE58\uC988 \uBFCC\uB9AC\uAE30"
+      kind: 0
+      hitBeats:
+      - 6
+      - 9
+      path:
+      - beat: 3
+        angleDeg: 0
+      - beat: 6
+        angleDeg: 270
+      - beat: 7.5
+        angleDeg: 90
+      - beat: 9
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 0
+      icon: {fileID: 21300000, guid: 95a2d0122f92da04583fa0a6ba4fc709, type: 3}
+      color: {r: 0.94509804, g: 0.76862746, b: 0.05882353, a: 1}
+    backdrop: 0
+    pizza: 0
+    overrideWheelTint: 0
+    wheelTint: {r: 1, g: 1, b: 1, a: 1}
+    holdBeats: 0
+  - phaseName: "\uC624\uBE10"
+    rows:
+    - label: "\uC624\uBE10"
+      kind: 1
+      hitBeats:
+      - 4
+      path:
+      - beat: 0
+        angleDeg: 0
+      - beat: 4
+        angleDeg: 270
+      onMiss: 0
+      tailBeats: 12
+      icon: {fileID: 0}
+      color: {r: 0.9019608, g: 0.49411765, b: 0.13333334, a: 1}
+    backdrop: 1
+    pizza: 1
+    overrideWheelTint: 0
+    wheelTint: {r: 1, g: 1, b: 1, a: 1}
+    holdBeats: 0
+  - phaseName: "\uC644\uC131"
+    rows: []
+    backdrop: 0
+    pizza: 2
+    overrideWheelTint: 0
+    wheelTint: {r: 1, g: 1, b: 1, a: 1}
+    holdBeats: 8

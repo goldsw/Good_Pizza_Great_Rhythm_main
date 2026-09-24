@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 382f61b07f2085f46a5863162241aa67, type: 3}
+  m_Name: TempTrailerChart
+  m_EditorClassIdentifier: GPGR.Charting::GPGR.Charting.SongChart
+  bpm: 120
+  offsetSeconds: 0
+  defaultApproachBeats: 2
+  defaultSpawnAngleDeg: 180
+  defaultHitAngleDeg: 270
+  clip: {fileID: 0}
+  judgement:
+    perfectMs: 50
+    goodMs: 100
+    badMs: 160
+    perfectPenalty: 0
+    goodPenalty: 2
+    badPenalty: 5
+    missPenalty: 10
+  playback: 0
+  autoGoodRatio: 0.25
+  autoSeed: 12345
+  phases:
+- phaseName: 반죽
+  rows:
+  - label: 반죽
+    kind: 1
+    hitBeats:
+    - 2
+    path:
+    - beat: 0
+      angleDeg: 180
+    - beat: 2
+      angleDeg: 270
+    onMiss: 0
+    tailBeats: 2
+    icon: {fileID: 21300000, guid: 4c8e1a14b7d64f0a9c2e5b18d6a30114, type: 3}
+    color: {r: 0.909804, g: 0.831373, b: 0.658824, a: 1}
+  backdrop: 0
+  pizza: 0
+  overrideWheelTint: 0
+  wheelTint: {r: 1, g: 1, b: 1, a: 1}
+  holdBeats: 0
+- phaseName: 토마토 소스
+  rows:
+  - label: 토마토 소스
+    kind: 0
+    hitBeats:
+    - 2
+    path:
+    - beat: 0
+      angleDeg: 180
+    - beat: 2
+      angleDeg: 270
+    onMiss: 0
+    tailBeats: 0
+    icon: {fileID: 21300000, guid: 4c8e1a14b7d64f0a9c2e5b18d6a30114, type: 3}
+    color: {r: 0.752941, g: 0.223529, b: 0.168627, a: 1}
+  - label: 토마토 소스
+    kind: 0
+    hitBeats:
+    - 4
+    path:
+    - beat: 2
+      angleDeg: 180
+    - beat: 4
+      angleDeg: 270
+    onMiss: 0
+    tailBeats: 0
+    icon: {fileID: 21300000, guid: 4c8e1a14b7d64f0a9c2e5b18d6a30114, type: 3}
+    color: {r: 0.752941, g: 0.223529, b: 0.168627, a: 1}
+  backdrop: 0
+  pizza: 0
+  overrideWheelTint: 0
+  wheelTint: {r: 1, g: 1, b: 1, a: 1}
+  holdBeats: 0
+- phaseName: 치즈 뿌리기
+  rows:
+  - label: 치즈 뿌리기
+    kind: 0
+    hitBeats:
+    - 2
+    - 4
+    path:
+    - beat: 0
+      angleDeg: 180
+    - beat: 2
+      angleDeg: 270
+    - beat: 3
+      angleDeg: 210
+    - beat: 4
+      angleDeg: 270
+    onMiss: 0
+    tailBeats: 0
+    icon: {fileID: 21300000, guid: 4c8e1a14b7d64f0a9c2e5b18d6a30114, type: 3}
+    color: {r: 0.945098, g: 0.768627, b: 0.058824, a: 1}
+  backdrop: 0
+  pizza: 0
+  overrideWheelTint: 0
+  wheelTint: {r: 1, g: 1, b: 1, a: 1}
+  holdBeats: 0
+- phaseName: 페퍼로니
+  rows:
+  - label: 페퍼로니
+    kind: 0
+    hitBeats:
+    - 1
+    path:
+    - beat: 0
+      angleDeg: 180
+    - beat: 1
+      angleDeg: 270
+    onMiss: 0
+    tailBeats: 0
+    icon: {fileID: 21300000, guid: 4c8e1a14b7d64f0a9c2e5b18d6a30114, type: 3}
+    color: {r: 0.556863, g: 0.168627, b: 0.125490, a: 1}
+  - label: 페퍼로니
+    kind: 0
+    hitBeats:
+    - 2
+    path:
+    - beat: 1
+      angleDeg: 180
+    - beat: 2
+      angleDeg: 270
+    onMiss: 0
+    tailBeats: 0
+    icon: {fileID: 21300000, guid: 4c8e1a14b7d64f0a9c2e5b18d6a30114, type: 3}
+    color: {r: 0.556863, g: 0.168627, b: 0.125490, a: 1}
+  - label: 페퍼로니
+    kind: 0
+    hitBeats:
+    - 3
+    path:
+    - beat: 2
+      angleDeg: 180
+    - beat: 3
+      angleDeg: 270
+    onMiss: 0
+    tailBeats: 0
+    icon: {fileID: 21300000, guid: 4c8e1a14b7d64f0a9c2e5b18d6a30114, type: 3}
+    color: {r: 0.556863, g: 0.168627, b: 0.125490, a: 1}
+  - label: 페퍼로니
+    kind: 0
+    hitBeats:
+    - 4
+    path:
+    - beat: 3
+      angleDeg: 180
+    - beat: 4
+      angleDeg: 270
+    onMiss: 0
+    tailBeats: 0
+    icon: {fileID: 21300000, guid: 4c8e1a14b7d64f0a9c2e5b18d6a30114, type: 3}
+    color: {r: 0.556863, g: 0.168627, b: 0.125490, a: 1}
+  backdrop: 0
+  pizza: 0
+  overrideWheelTint: 0
+  wheelTint: {r: 1, g: 1, b: 1, a: 1}
+  holdBeats: 0
+- phaseName: 오븐
+  rows:
+  - label: 오븐
+    kind: 1
+    hitBeats:
+    - 2
+    path:
+    - beat: 0
+      angleDeg: 180
+    - beat: 2
+      angleDeg: 270
+    onMiss: 0
+    tailBeats: 4
+    icon: {fileID: 21300000, guid: 4c8e1a14b7d64f0a9c2e5b18d6a30114, type: 3}
+    color: {r: 0.901961, g: 0.494118, b: 0.133333, a: 1}
+  backdrop: 1
+  pizza: 1
+  overrideWheelTint: 0
+  wheelTint: {r: 1, g: 1, b: 1, a: 1}
+  holdBeats: 0
+- phaseName: 완성
+  rows: []
+  backdrop: 0
+  pizza: 2
+  overrideWheelTint: 0
+  wheelTint: {r: 1, g: 1, b: 1, a: 1}
+  holdBeats: 8

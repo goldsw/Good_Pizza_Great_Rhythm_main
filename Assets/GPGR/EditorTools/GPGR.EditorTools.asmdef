@@ -1,0 +1,19 @@
+{
+    "name": "GPGR.EditorTools",
+    "rootNamespace": "GPGR.EditorTools",
+    "references": [
+        "GPGR.Charting",
+        "GPGR.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
